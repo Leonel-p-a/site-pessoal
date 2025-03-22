@@ -73,7 +73,7 @@ main div#imagem {
 }
 
 footer {
-    background-color: rgb(8, 8, 8);
+    background-color: var(--cor2);
     padding: 20px;
     display: flex;
     justify-content: center;
