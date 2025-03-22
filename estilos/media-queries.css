@@ -1,0 +1,101 @@
+
+:root {
+    --cor1: rgb(15, 15, 30);
+    --cor2: rgb(8, 8 ,8);
+}
+
+@media only screen and (min-width: 768px){
+
+    header nav {
+        width: 150px;
+        height: 80vh;    
+        position: absolute;
+        background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    }
+    
+    header nav ul {
+        display: block;  
+    }
+
+    main {
+        height: 80%;
+        background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    }
+
+    footer {
+        background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    }
+}
+
+/* @media screen and (min-width: 768px) {
+    
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor1);
+}
+
+header div#cabecalho {
+    background-color: var(--cor2);
+    padding: 20px;
+}
+
+header div#cabecalho h1 {
+    text-align: center;
+}
+
+header nav {
+    background-color: var(--cor2);
+    width: 150px;
+    height: 80vh;    
+    position: absolute;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+}
+
+header nav ul {
+    padding: 15px;
+    list-style-type: none;   
+}
+
+header nav ul li {    
+    padding-bottom: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+header nav ul li a:hover {
+    background-color: var(--cor1);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+}
+
+main div#imagem {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(../imagens/foto\ pessoal\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: rgb(8, 8, 8);
+    padding: 21px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, rgb(8, 8, 8), var(--cor1));
+} */
