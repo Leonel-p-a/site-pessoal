@@ -6,6 +6,11 @@ div.titulo-sobre {
     text-align: center;
 }
 
+
+div.titulo-sobre p {
+    padding: 10px;
+}
+
 div.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
