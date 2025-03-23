@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "IBM Plex Sans Condensed", sans-serif;
     color: white;
 }
 
 :root {
-    --cor1: rgb(15, 15, 30);
+    --cor1: rgb(9, 49, 82);
     --cor2: rgb(8, 8 ,8);
 }
 
 html, body {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
     width: 100vw;
     height: 100vh;
     background-color: var(--cor2);
@@ -23,7 +23,11 @@ header div#cabecalho {
 }
 
 header div#cabecalho h1 {
+    font-family: "Boldonse";
     text-align: center;
+    display: block;
+    margin: auto;
+    width: 350px;
 }
 
 header nav {
@@ -67,7 +71,7 @@ main div#imagem {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-image: url(../imagens/foto\ pessoal\ \(1\).jpg);
+    background-image: url(../imagens/foto-propria.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

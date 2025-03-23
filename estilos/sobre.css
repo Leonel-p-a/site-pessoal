@@ -1,0 +1,79 @@
+/* Dispositivos Mobile */
+body {
+    overflow-x: hidden;
+    background-color: var(--cor2);
+}
+
+
+section.texto1 {
+    background-color: white;
+    padding: 15px;
+}
+
+section.texto1 h1, p {
+    color: var(--cor2);
+}
+
+section.texto1 h1 {
+    text-align: center;
+    color: var(--cor1);
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+section p:last-child {
+    margin-bottom: 5px;
+}
+
+section a {
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+section a.link::after {
+    content: '\1F517';
+}
+
+section.imagem1 {
+    background: url(../imagens/beta-e-eu.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+section.texto2 {
+    padding: 15px;
+    background-color: white;
+}
+
+/* Dispositos Desktop */
+
+/* @media screen and (min-width: 992px) {
+
+    header div#cabecalho {
+        background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    }
+
+    section {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    header nav {
+        height: 100%;
+    }
+
+    div.main-sobre {
+        background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    }
+} */
