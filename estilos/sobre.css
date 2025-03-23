@@ -58,10 +58,11 @@ section.texto2 {
 
 /* Dispositos Desktop */
 
-/* @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
 
     header div#cabecalho {
-        background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+        background-color: var(--cor2);
+        margin-bottom: 70px;
     }
 
     section {
@@ -69,11 +70,20 @@ section.texto2 {
         margin: auto;
     }
 
-    header nav {
-        height: 100%;
+    section.texto1 {        
+        border-radius: 10px 10px 0px 0px;
     }
 
-    div.main-sobre {
-        background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    section.texto2 {
+        border-radius: 0px 0px 10px 10px;
     }
-} */
+
+    header nav {
+        height: 100%;
+        background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    }
+
+    div.main-sobre {        
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1) 55%);
+    }
+}
