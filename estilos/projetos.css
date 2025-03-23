@@ -53,6 +53,10 @@ div.grid div.img4 {
     background-size: cover;
 }
 
+footer {
+    margin-top: 20px;
+}
+
 @media screen and (min-width: 768px) {
     div.grid {
         display: grid;
