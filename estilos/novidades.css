@@ -1,0 +1,72 @@
+/* Dispositivos Mobile */
+nav {
+    padding-bottom: 160px;
+}
+section.conteudo {
+    max-width: 600px;
+    background-color: white;
+    padding: 15px;
+}
+
+section.conteudo h1, p {
+    padding-bottom: 15px;
+}
+
+section.conteudo h1 {
+    color: var(--cor1);
+    padding-top: 10px;
+}
+
+section.conteudo p {
+    color: var(--cor2);
+    padding-top: 15px;
+}
+
+section.conteudo a {
+    color: var(--cor1);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section.conteudo a:hover {
+    text-decoration: underline;
+}
+
+section.conteudo a::after {
+    content: '\1F517';
+}
+
+section.conteudo img {
+    width: 200px;
+}
+
+footer {
+    padding-top: 180px;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        padding-bottom: 20px;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    section.conteudo {
+        max-width: 800px;
+        border-radius: 10px;
+        margin-top: 350px;
+    }
+
+    footer {
+        padding-top: 300px;
+    }
+}
