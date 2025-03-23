@@ -4,7 +4,6 @@
         width: 150px;
         height: 68vh;
         position: absolute;
-        background-image: linear-gradient(to bottom, var(--cor2), );
     }
     
     header nav ul {
