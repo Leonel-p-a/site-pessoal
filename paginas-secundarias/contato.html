@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../estilos/mobile.css">
     <link rel="stylesheet" href="../estilos/media-queries.css">
+    <link rel="stylesheet" href="../estilos/contato.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
@@ -29,7 +30,27 @@
     </header>
 
     <main>
-        
+        <div class="sociais">
+            <h1>Contato</h1>
+            <p>Siga-me:</p>
+            <div class="imagem"><a href="https://www.linkedin.com/in/leonel-almeida-240228229/" target="_blank"><img src="../imagens/linkedin-logo.png" alt=""></a></div>
+            <div class="imagem"><a href="https://github.com/Leonel-p-a" target="_blank"><img src="../imagens/github-logo.png" alt=""></a></div>
+        </div>
+        <div class="formulario">
+            <form action="cadastro-contato.php" method="post">
+                <label for="nome">Nome completo:</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem..."></textarea>
+
+                <input type="submit" value="Enviar" id="enviar">
+                <input type="reset" value="Limpar" id="limpar">
+            </form>
+        </div>
     </main>
 
     <footer>

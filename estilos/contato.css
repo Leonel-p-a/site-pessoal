@@ -1,0 +1,112 @@
+/* Dispositivos Mobile */
+
+div.sociais {
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+div.sociais h1 {
+    color: var(--cor1);
+}
+
+div.sociais p {
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+div.sociais div.imagem {
+    width: 50px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+div.sociais div.imagem img {
+    width: 100%;
+}
+
+div.formulario {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+input#nome, input#email {
+    display: block;
+    width: 300px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    color: black;
+    text-align: left;
+    vertical-align: top;
+}
+
+input#enviar {
+    background-color: var(--cor1);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+input#enviar:hover {
+    background-color: rgb(47, 95, 134);
+}
+
+input#limpar {
+    background-color: var(--cor2);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input#limpar:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (min-width: 768px) {
+    div.sociais {
+        width: 400px;
+    }
+
+    input#nome, input#email {
+        width: 400px;
+    }
+
+    textarea {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
+    div.formulario {
+        position: absolute;
+        top: 40%;
+    }
+
+    footer {
+        padding-top: 150px;
+    }
+}

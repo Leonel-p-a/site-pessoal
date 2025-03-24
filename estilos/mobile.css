@@ -62,7 +62,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 66vh;
+    height: 66%;
     background-image: linear-gradient(to top, var(--cor2), var(--cor1));
 }
 
