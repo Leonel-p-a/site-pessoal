@@ -39,13 +39,13 @@
         <div class="formulario">
             <form action="cadastro-contato.php" method="post">
                 <label for="nome">Nome completo:</label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" required>
 
                 <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
 
                 <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem..."></textarea>
+                <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem..." required minlength="20"></textarea>
 
                 <input type="submit" value="Enviar" id="enviar">
                 <input type="reset" value="Limpar" id="limpar">
