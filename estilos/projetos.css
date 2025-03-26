@@ -1,87 +1,78 @@
 /* Dispositivos Mobile */
 
-div.titulo-sobre {
+.titulo-sobre {
     width: 100%;
     height: 100%;
+    align-self: flex-start;
     text-align: center;
+    padding: 0.7rem;
 }
 
-
-div.titulo-sobre p {
-    padding: 10px;
+.titulo-sobre h2 {
+    padding-bottom: 30px;
 }
 
-main {
-    height: 70vh;
+.titulo-sobre p {
+    padding-bottom: 30px;
 }
 
-div.grid {
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 250px 250px;
     gap: 10px;
-    padding: 10px;
-    margin-top: 50px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
-div.grid div.conteudo {
+.grid .conteudo {
     border: 1px solid white;
     padding: 10px;
 }
 
-div.grid div.conteudo a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-div.grid div.img1 {
+.grid .img1 {
     background: url(../imagens/Captura\ de\ tela\ 2025-03-23\ 122200.png);
     background-size: cover;
     background-position: center top;
 }
 
-div.grid div.img2 {
+.grid .img2 {
     background: url(../imagens/Captura\ de\ tela\ 2025-03-23\ 122220.png);
     background-size: cover;
 }
 
-div.grid div.img3 {
+.grid .img3 {
     background: url(../imagens/Captura\ de\ tela\ 2025-03-23\ 122235.png);
     background-size: cover;
 }
 
-div.grid div.img4 {
+.grid .img4 {
     background: url(../imagens/Captura\ de\ tela\ 2025-03-23\ 122259.png);
     background-size: cover;
 }
 
-footer {
-    padding-top: 50px;
+.grid .conteudo a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
+
+/* Media Queries para Tablets */
 
 @media screen and (min-width: 768px) {
-    div.grid {
-        grid-template-rows: 350px 350px;
-    }
-
-    footer {
-        padding-top: 100px;
+    .grid {
+        grid-template-rows: 500px 500px;
     }
 }
 
-/* Dispositivos Desktop */
+/* Media Queries para telas maiores */
 
-@media screen and (min-width: 998px) {
+@media screen and (min-width: 992px) {
 
-    body {
-        overflow-x: hidden;
+    .container {
+        max-width: 1300px;
     }
 
-    div.grid {
-        grid-template-columns: 200px 200px;
-        grid-template-rows: 200px 200px;
-        margin: auto;
-        justify-content: center;
-    }
-}
+    .titulo-sobre {
+        text-align: left;
+    }    
+}    
