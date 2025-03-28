@@ -16,7 +16,7 @@
 }
 
 html {
-    background: linear-gradient(to bottom, var(--cor2), var(--cor1) 15%);
+    background-color: var(--cor3);
     color: var(--cor4);
     font-size: 16px;
 }
@@ -33,7 +33,6 @@ body {
 .geral {
     position: relative;
     width: 100%;
-    max-width: 1550px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
